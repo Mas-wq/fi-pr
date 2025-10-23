@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     button {
-        width: 100%;
+        width: 45%;
         padding: 12px;
         background: linear-gradient(135deg, #4da6ff, #0066cc);
         border: none;
@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     button:hover {
         background: linear-gradient(135deg, #66b2ff, #0080ff);
-        transform: scale(1.03);
+        transform: scale(1.1);
     }
 
     .error {
